@@ -20,4 +20,4 @@ function generatePassword(length, characters) {
     return password;
 }
 
-module.exports = createPassword;
+export default createPassword;

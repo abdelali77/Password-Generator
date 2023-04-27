@@ -1,8 +1,11 @@
 {
-  "name": "password-generator",
+  "name": "passgen",
   "version": "1.0.0",
   "description": "Password Generator",
   "main": "pg.js",
+  "type": "module",
+  "preferGlobal": true,
+  "bin": "./pg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +14,7 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "clipboard": "^2.0.11",
+    "clipboardy": "^3.0.0",
     "commander": "^10.0.1"
   }
 }
