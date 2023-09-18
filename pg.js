@@ -24,6 +24,7 @@ const generatedPassword = createPassword(length, numbers, symbols, letters)
 if(save) savePassword(generatedPassword);
 
 // copy to clipboard
+clipboard.writeSync(generatedPassword);
 
 // log
 console.log(chalk.blue('Generated Password: ') + chalk.bold(generatedPassword));
