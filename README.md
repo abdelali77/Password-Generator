@@ -1,4 +1,5 @@
 # Password-Generator
+A simple command-line tool to generate passwords.
 # Usage
 Symlink
 ```bash
