@@ -13,7 +13,7 @@ const createPassword = (length = 6, hasNumbers = true, hasSymbols = true, hasLet
 
 function generatePassword(length, characters) {
     let password = '';
-    for(let i = 0; i < length; i++) {
+    for (let i = 0; i < length; i++) {
         password += characters.charAt(Math.floor(Math.random() * characters.length))
     }
 

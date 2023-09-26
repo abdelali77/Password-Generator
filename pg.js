@@ -21,7 +21,7 @@ const { length, save, numbers, symbols, letters } = program.opts();
 const generatedPassword = createPassword(length, numbers, symbols, letters)
 
 // save to file
-if(save) savePassword(generatedPassword);
+if (save) savePassword(generatedPassword);
 
 // copy to clipboard
 clipboard.writeSync(generatedPassword);
