@@ -16,5 +16,6 @@
     "clipboard": "^2.0.11",
     "clipboardy": "^3.0.0",
     "commander": "^10.0.1"
+    
   }
 }
