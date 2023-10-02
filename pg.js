@@ -17,7 +17,6 @@ program
 
 const { length, save, numbers, symbols, letters } = program.opts();
 
-// password
 const generatedPassword = createPassword(length, numbers, symbols, letters)
 
 // save to file
