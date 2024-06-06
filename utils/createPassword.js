@@ -2,7 +2,7 @@ const alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUWXYZ';
 const numbers = '0123456789';
 const symbols = '!@#$%^&*_-+=';
 
-const createPassword = (length = 6, hasNumbers = true, hasSymbols = true, hasLetters = true) => {
+const createPassword = (length = 8, hasNumbers = true, hasSymbols = true, hasLetters = true) => {
     let characters = '';
     hasNumbers ? (characters += numbers) : ''
     hasSymbols ? (characters += symbols) : ''
