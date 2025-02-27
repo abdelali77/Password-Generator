@@ -19,12 +19,12 @@ const { length, save, numbers, symbols, letters } = program.opts();
 
 const generatedPassword = createPassword(length, numbers, symbols, letters)
 
-// save to file
+/* save to file */
 if (save) savePassword(generatedPassword);
 
-// copy to clipboard
+/* copy to clipboard */
 clipboard.writeSync(generatedPassword);
 
-// log
+/* log */
 console.log(chalk.blue('Generated Password: ') + chalk.bold(generatedPassword));
 console.log(chalk.yellow('Password copied to clipboard'));
