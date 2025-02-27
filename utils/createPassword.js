@@ -3,21 +3,21 @@ const numbers = '0123456789';
 const symbols = '!@#$%^&*_-+=';
 
 const createPassword = (length = 8, hasNumbers = true, hasSymbols = true, hasLetters = true) => {
-    let characters = '';
-    hasNumbers ? (characters += numbers) : ''
-    hasSymbols ? (characters += symbols) : ''
-    hasLetters ? (characters += alpha) : ''
+	let characters = '';
+	hasNumbers ? (characters += numbers) : ''
+	hasSymbols ? (characters += symbols) : ''
+	hasLetters ? (characters += alpha) : ''
 
-    return generatePassword(length, characters);
+	return generatePassword(length, characters);
 }
 
 function generatePassword(length, characters) {
-    let password = '';
-    for (let i = 0; i < length; i++) {
-        password += characters.charAt(Math.floor(Math.random() * characters.length))
-    }
+	let password = '';
+	for (let i = 0; i < length; i++) {
+		password += characters.charAt(Math.floor(Math.random() * characters.length))
+	}
 
-    return password;
+	return password;
 }
 
 export default createPassword;
