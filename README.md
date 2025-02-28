@@ -13,6 +13,8 @@ passgen
 * `-ns` or `--no-symbols` : remove symbols
 * `-h` or `--help` : display help for command
 * `-v` or `--version` : show the version
+* `-L` or `--lowercase` : only lowercase
+* `-U` or `--uppercase` : only uppercase
 
 # License
 This project is licensed under the MIT License - see the [LICENSE](License.md) file for details.
