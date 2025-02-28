@@ -6,7 +6,7 @@ Symlink
 passgen
 ```
 # Options
-* `-l` or `--length` : length of password (default: 6)
+* `-l` or `--length` : length of password (default: 8)
 * `-s` or `--save` : save passwrods as passwords.txt
 * `-nn` or `--no-numbers` : remove numbers
 * `-nl` or `--no-letters` : remove letters
